@@ -12,10 +12,10 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-CUSTOM_BUILD_TYPE := OFFICIAL
+#CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Google Camera Mod
-$(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)
+#$(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cesium_beryllium
